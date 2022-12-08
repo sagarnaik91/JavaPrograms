@@ -29,6 +29,7 @@ public class DuplicateWords {
 			}
 		}
 		System.out.println(keys);
+		System.out.println(keys);
 	}
 
 }
