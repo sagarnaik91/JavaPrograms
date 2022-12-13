@@ -20,6 +20,8 @@ public class DuplicateWords {
 				hashmap.put(word, integer + 1);
 			}
 		}
+		System.out.println(hashmap);
+	
 
 		int max = Collections.max(hashmap.values());
 		List<String> keys = new ArrayList<>();
@@ -29,7 +31,7 @@ public class DuplicateWords {
 			}
 		}
 		System.out.println(keys);
-		System.out.println(keys);
+		
 	}
 
 }
